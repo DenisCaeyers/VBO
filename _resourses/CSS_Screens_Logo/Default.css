@@ -1,0 +1,89 @@
+@font-face {
+  font-family: vbo;
+  src: url(/Assets/Fonts/fontello/font/vbo.eot?8055905);
+  src: url(/Assets/Fonts/fontello/font/vbo.eot?8055905#iefix) format("embedded-opentype"), url(/Assets/Fonts/fontello/font/vbo.woff?8055905) format("woff"), url(/Assets/Fonts/fontello/font/vbo.ttf?8055905) format("truetype"), url(/Assets/Fonts/fontello/font/vbo.svg?8055905#vbo) format("svg");
+  font-weight: 400;
+  font-style: normal;
+}
+.anchor-article a .overlay {
+  background-image: url(/Assets/Images/patterns/bg-pattern-1.png);
+}
+.home-block-articles > .block .block-social {
+  background-image: url(/Assets/Images/patterns/bg-pattern-2.png);
+}
+.bg-blue-pattern {
+  background-image: url(/Assets/Images/patterns/bg-pattern-1.png);
+}
+.language-warning {
+  background: #f00128;
+  display: inline-block;
+  position: absolute;
+  right: 0;
+  padding: 0 10px;
+  height: 36px;
+  line-height: 36px;
+  color: white;
+}
+.language-warning-wrapper {
+  position: relative;
+  height: 36px;
+}
+@media screen and (max-width: 751px) {
+  .menu-main-container .menu-main > a img {
+    width: 200px;
+    max-width: 200px;
+    height: 80px;
+    opacity: .2;
+  }
+}
+@media screen and (min-width: 752px) {
+  .menu-main-container .menu-main > a img {
+    width: 120px;
+    max-width: 120px;
+    height: 80px;
+  }
+}
+footer .footer-content-container > .block:first-child > .block a img {
+  width: 120px;
+  max-width: 120px;
+  height: 53px;
+  margin-top: 2px;
+}
+.sitemap a {
+  color: #152c39;
+}
+.sitemap a:hover {
+  color: #f00128;
+}
+.sitemap ol {
+  margin: 0 0 0 10px;
+  padding: 10px 0 0 16px;
+  background: none;
+  border-left: 0 solid #e0e0e0;
+  list-style: none;
+}
+.sitemap ol li {
+  padding: 0 0 10px 20px;
+  margin: 0;
+  background: repeat-y url('/Assets/Images/Sitemap/sitemapul.png');
+  background-position: 0 0;
+}
+.sitemap ol li:last-of-type {
+  background: no-repeat url('/Assets/Images/Sitemap/sitemaplast.png');
+  margin: 0;
+  padding-bottom: 0;
+}
+.select-select1 input[type=radio] {
+  height: 3.5625rem;
+  width: 1rem;
+  display: inline-block;
+  vertical-align: middle;
+  vertical-align: -webkit-baseline-middle;
+}
+.select-checkboxes input[type=checkbox] {
+  height: 3.5625rem;
+  width: 1rem;
+  display: inline-block;
+  vertical-align: middle;
+  vertical-align: -webkit-baseline-middle;
+}

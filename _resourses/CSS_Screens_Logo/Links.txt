@@ -1,0 +1,30 @@
+Credentials
+--------------------
+Domain: GITLAB
+User  : denisc
+Psw   : cgkSP2013
+
+RDP   : vbo-dev-shp-wou.cloudapp.net
+
+
+Site collection
+---------------------
+http://vbo-dev-shp-wou/sites/VBO_Version7/
+
+Simple view:
+---------------------
+http://vbo-dev-shp-wou/sites/VBO_Version7/Pages/Workgroup5.aspx
+
+
+TFS
+---------------------
+https://tfs.cegeka.com/tfs/Program5/Cegeka.Extranet.Accelerator/_workitems#_a=edit&id=52451
+https://tfs.cegeka.com/tfs/Program5/Cegeka.Extranet.Accelerator/_workitems#_a=edit&id=52452
+
+
+Corporate Identity
+---------------------
+http://dev.stijlbreuk.nu/vbo/releases/3/
+
++ bijlages
+

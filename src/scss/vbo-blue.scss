@@ -1,0 +1,78 @@
+@import 'variables';
+
+body{
+    #suiteBar{
+        // Colored side of the suitebar
+        #suiteBarLeft{
+            background-color: $c-darkblue;
+            font-style: $f-proxima !important;
+            font-weight: normal;
+            
+            .ms-core-suiteLink-a:hover, .ms-core-suiteLink-a:active {
+                background-color:$c-red;
+            }
+        }
+        // Gray side of the suitebar
+        #suiteBarRight{
+            #DeltaSuiteBarRight{
+                ul.ms-core-menu-list{
+                    li.ms-core-menu-item:hover{
+                        background-color: $c-red;
+                        *{
+                            color:white !important;
+                        }
+                    }  
+                }
+            }
+        }
+    }
+    #s4-ribbonrow{
+        *{
+            color: $c-darkblue !important;
+        }
+    }
+    #s4-workspace{
+        a:hover, .ms-link:visited{
+
+        }
+        #s4-bodyContainer{
+            #s4-titlerow{
+                #titleAreaBox{
+                    #titleAreaRow{
+                        // Site icon 
+                        #siteIcon{
+                            
+                        }
+                        // Top navigation
+                        .ms-breadcrumb-box{
+                            .ms-breadcrumb-top{
+                                ul.ms-core-listMenu-root{
+                                    a.ms-core-listMenu-selected{
+                                       color:$c-red !important; 
+                                    }
+                                    a.ms-core-listMenu-selected:hover{
+                                       color:$c-red !important; 
+                                       text-decoration: none;
+                                    }
+                                    a.ms-core-listMenu-item:hover{
+                                        color:$c-darkblue;
+                                        text-decoration:underline;
+                                    }
+                                }
+                            }
+                            // Page title
+                            #pageTitle.ms-core-pageTitle{
+                                color: $c-darkblue;
+                            }
+                        }
+                        // Searchbox
+                        > div + div + div {
+                            
+                        }
+                        
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "vbo-styling",
+  "description": "Styling package for the customer VBO",
+  "main": "index.js",
+  "authors": [
+    "Denis Caeyers"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/DenisCaeyers/VBO",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-sass": "bootstrap-sass-official#~3.3.6"
+  }
+}
