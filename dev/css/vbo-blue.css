@@ -1,28 +1,62 @@
-body #suiteBar #suiteBarLeft {
-  background-color: #152c39;
-  font-style: "proxima-nova, helvetica, arial, sans-serif" !important;
-  font-weight: normal; }
-  body #suiteBar #suiteBarLeft .ms-core-suiteLink-a:hover, body #suiteBar #suiteBarLeft .ms-core-suiteLink-a:active {
+body {
+  /*img[src*="spcommon.png"]{ 
+        background-image: url('http://localhost:8001/src/img/spcommon.png');
+        width:0; 
+        height:0;
+        padding:134px 135.5px;
+    }*/ }
+  body #suiteBar #suiteBarLeft {
+    background-color: #152c39;
+    font-style: "proxima-nova, helvetica, arial, sans-serif" !important;
+    font-weight: normal; }
+    body #suiteBar #suiteBarLeft .ms-core-suiteLink-a:hover, body #suiteBar #suiteBarLeft .ms-core-suiteLink-a:active {
+      background-color: #f00128; }
+  body #suiteBar #suiteBarRight #DeltaSuiteBarRight ul.ms-core-menu-list li.ms-core-menu-item:hover {
     background-color: #f00128; }
-
-body #suiteBar #suiteBarRight #DeltaSuiteBarRight ul.ms-core-menu-list li.ms-core-menu-item:hover {
-  background-color: #f00128; }
-  body #suiteBar #suiteBarRight #DeltaSuiteBarRight ul.ms-core-menu-list li.ms-core-menu-item:hover * {
-    color: white !important; }
-
-body #s4-ribbonrow * {
-  color: #152c39 !important; }
-
-body #s4-workspace #s4-bodyContainer #s4-titlerow #titleAreaBox #titleAreaRow .ms-breadcrumb-box .ms-breadcrumb-top ul.ms-core-listMenu-root a.ms-core-listMenu-selected {
-  color: #f00128 !important; }
-
-body #s4-workspace #s4-bodyContainer #s4-titlerow #titleAreaBox #titleAreaRow .ms-breadcrumb-box .ms-breadcrumb-top ul.ms-core-listMenu-root a.ms-core-listMenu-selected:hover {
-  color: #f00128 !important;
-  text-decoration: none; }
-
-body #s4-workspace #s4-bodyContainer #s4-titlerow #titleAreaBox #titleAreaRow .ms-breadcrumb-box .ms-breadcrumb-top ul.ms-core-listMenu-root a.ms-core-listMenu-item:hover {
-  color: #152c39;
-  text-decoration: underline; }
-
-body #s4-workspace #s4-bodyContainer #s4-titlerow #titleAreaBox #titleAreaRow .ms-breadcrumb-box #pageTitle.ms-core-pageTitle {
-  color: #152c39; }
+    body #suiteBar #suiteBarRight #DeltaSuiteBarRight ul.ms-core-menu-list li.ms-core-menu-item:hover * {
+      color: white !important; }
+  body #s4-ribbonrow * {
+    color: #152c39 !important; }
+  body #s4-workspace #s4-bodyContainer #s4-titlerow {
+    -moz-box-shadow: 0px 5px 15px 0 #e9eef0;
+    -webkit-box-shadow: 0px 5px 15px 0 #e9eef0;
+    box-shadow: 0px 5px 15px 0 #e9eef0;
+    border-bottom: 1px solid #e9eef0;
+    padding-bottom: 15px; }
+    body #s4-workspace #s4-bodyContainer #s4-titlerow #titleAreaBox #titleAreaRow .ms-breadcrumb-box .ms-breadcrumb-top ul.ms-core-listMenu-root a.ms-core-listMenu-selected {
+      color: #f00128 !important; }
+    body #s4-workspace #s4-bodyContainer #s4-titlerow #titleAreaBox #titleAreaRow .ms-breadcrumb-box .ms-breadcrumb-top ul.ms-core-listMenu-root a.ms-core-listMenu-selected:hover {
+      color: #f00128 !important;
+      text-decoration: none; }
+    body #s4-workspace #s4-bodyContainer #s4-titlerow #titleAreaBox #titleAreaRow .ms-breadcrumb-box .ms-breadcrumb-top ul.ms-core-listMenu-root a.ms-core-listMenu-item:hover {
+      color: #152c39;
+      text-decoration: underline; }
+    body #s4-workspace #s4-bodyContainer #s4-titlerow #titleAreaBox #titleAreaRow .ms-breadcrumb-box #pageTitle.ms-core-pageTitle {
+      color: #152c39; }
+    body #s4-workspace #s4-bodyContainer #s4-titlerow #titleAreaBox #titleAreaRow > div + div + div .ms-srch-sb-border:hover, body #s4-workspace #s4-bodyContainer #s4-titlerow #titleAreaBox #titleAreaRow > div + div + div .ms-srch-sb-borderFocused {
+      border-color: #152c39; }
+  body #s4-workspace #s4-bodyContainer #contentRow #sideNavBox .ms-core-listMenu-verticalBox {
+    background-color: #f8fafa;
+    border: 1px solid #e9eef0; }
+    body #s4-workspace #s4-bodyContainer #contentRow #sideNavBox .ms-core-listMenu-verticalBox ul li a.ms-core-listMenu-item:hover {
+      background-color: #f00128;
+      color: white; }
+    body #s4-workspace #s4-bodyContainer #contentRow #sideNavBox .ms-core-listMenu-verticalBox ul li .ms-core-listMenu-selected:link, body #s4-workspace #s4-bodyContainer #contentRow #sideNavBox .ms-core-listMenu-verticalBox ul li .ms-core-listMenu-selected:visited, body #s4-workspace #s4-bodyContainer #contentRow #sideNavBox .ms-core-listMenu-verticalBox ul li .ms-core-listMenu-selected {
+      background-color: #152c39;
+      color: white; }
+  body #s4-workspace #s4-bodyContainer #contentRow #contentBox .ms-tileview-tile-content {
+    background-color: #152c39; }
+  body #s4-workspace #s4-bodyContainer #contentRow #contentBox .ms-heroCommandLink, body #s4-workspace #s4-bodyContainer #contentRow #contentBox .ms-heroCommandLink:visited {
+    color: #f00128; }
+  body #s4-workspace #s4-bodyContainer #contentRow #contentBox a, body #s4-workspace #s4-bodyContainer #contentRow #contentBox .ms-link:visited {
+    color: #152c39;
+    font-weight: bold; }
+  body #s4-workspace #s4-bodyContainer #contentRow #contentBox .ms-webpartzone-cell .ms-listviewtable a, body #s4-workspace #s4-bodyContainer #contentRow #contentBox .ms-webpartzone-cell .ms-listviewtable .ms-link:visited {
+    color: #152c39;
+    font-weight: normal; }
+  body #s4-workspace #s4-bodyContainer #contentRow #contentBox .ms-webpartzone-cell .ms-listviewtable .ms-itmHoverEnabled:hover > * {
+    background-color: rgba(192, 1, 32, 0.3); }
+  body #s4-workspace #s4-bodyContainer #contentRow #contentBox .ms-webpartzone-cell .ms-listviewtable .s4-itm-selected > .ms-vb-imgFirstCell.ms-vb-imgFirstCell {
+    background-color: #f00128; }
+  body #s4-workspace #s4-bodyContainer #contentRow #contentBox .ms-storefront-appiconspan {
+    background-color: #152c39; }

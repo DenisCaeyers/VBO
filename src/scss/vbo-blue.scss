@@ -1,6 +1,14 @@
 @import 'variables';
+@import 'mixins';
 
 body{
+    // Override of the default spcommon.png
+    /*img[src*="spcommon.png"]{ 
+        background-image: url('http://localhost:8001/src/img/spcommon.png');
+        width:0; 
+        height:0;
+        padding:134px 135.5px;
+    }*/
     #suiteBar{
         // Colored side of the suitebar
         #suiteBarLeft{
@@ -37,6 +45,9 @@ body{
         }
         #s4-bodyContainer{
             #s4-titlerow{
+                @include box-shadow(0px, 5px, 15px, 0, $c-bordergray);
+                border-bottom: 1px solid $c-bordergray;  
+                padding-bottom:15px;
                 #titleAreaBox{
                     #titleAreaRow{
                         // Site icon 
@@ -67,12 +78,84 @@ body{
                         }
                         // Searchbox
                         > div + div + div {
-                            
+                            .ms-srch-sb-border:hover, .ms-srch-sb-borderFocused{
+                                border-color: $c-darkblue;
+                            }
                         }
                         
                     }
                 }
             }
+            #contentRow{
+                #sideNavBox{
+                    .ms-core-listMenu-verticalBox{
+                        background-color:$c-lightgray;
+                        border:1px solid $c-bordergray;
+                        // Level 1 navigation
+                        ul{
+                            li{
+                                a.ms-core-listMenu-item:hover{
+                                    background-color:$c-red;
+                                    color:white;
+                                }
+                                .ms-core-listMenu-selected:link, .ms-core-listMenu-selected:visited, .ms-core-listMenu-selected{
+                                    background-color:$c-darkblue;
+                                    color:white;
+                                }
+                                // Level 2 navigation
+                                ul{
+                                    li{
+                                        
+                                    }
+                                }
+                            }
+                        }    
+                    }
+                }
+                #contentBox{
+                    // Promoted Links default background
+                    .ms-tileview-tile-content{
+                        background-color:$c-darkblue;
+                    }
+                    
+                    // Command links
+                    .ms-heroCommandLink, .ms-heroCommandLink:visited{
+                        color:$c-red;
+                    }
+                    // General links
+                    a, .ms-link:visited{
+                        color:$c-darkblue;
+                        font-weight: bold;
+                    }
+                    
+                    // Web Part styling
+                    .ms-webpartzone-cell{
+                        // Document XSLT Web Part
+                        .ms-listviewtable{
+                            a, .ms-link:visited{
+                                color:$c-darkblue;
+                                font-weight: normal;
+                            }
+                            .ms-itmHoverEnabled:hover > *{
+                                background-color: $c-darkred-50;
+                            }
+                            .s4-itm-selected > .ms-vb-imgFirstCell.ms-vb-imgFirstCell{
+                                background-color:$c-red;
+                            }
+                            s4-itm-selected{
+                                
+                            }
+                        }
+                    }
+                    
+                    // Site contents page
+                    // App images
+                    .ms-storefront-appiconspan{
+                        background-color: $c-darkblue;
+                    }
+                }
+            }
+            
         }
     }
 }

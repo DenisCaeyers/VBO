@@ -1,0 +1,41 @@
+@mixin resetmargin{
+	margin:0;
+}
+
+@mixin resetpadding{
+	padding:0;
+}
+
+@mixin resetminmax-width{
+  min-width: auto;
+  max-width: auto;
+}
+
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+          border-radius: $radius;
+}
+
+@mixin border-top-left-radius($radius) {
+  -webkit-border-top-left-radius: $radius;
+     -moz-border-top-left-radius: $radius;
+      -ms-border-top-left-radius: $radius;
+          border-top-left-radius: $radius;
+}
+
+@mixin box-shadow($h-shadow, $v-shadow, $blur, $spread, $color)
+{
+  -moz-box-shadow: $h-shadow $v-shadow $blur $spread $color;
+  -webkit-box-shadow: $h-shadow $v-shadow $blur $spread $color;
+  box-shadow: $h-shadow $v-shadow $blur $spread $color;
+}
+
+@mixin transition($property, $speed, $effect) {
+    -webkit-transition: $property $speed $effect;
+    -moz-transition: $property $speed $effect;
+    -o-transition: $property $speed $effect;
+    transition: $property $speed $effect;
+}
+
